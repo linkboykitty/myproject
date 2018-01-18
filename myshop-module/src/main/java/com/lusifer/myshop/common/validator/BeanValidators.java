@@ -30,7 +30,7 @@ import java.util.Set;
 public class BeanValidators {
 
     /**
-     * 调用JSR303的validate方法, 验证失败时抛出ConstraintViolationException.
+     * JSR303的validate方法, 验证失败时抛出ConstraintViolationException.
      */
     @SuppressWarnings({"unchecked", "rawtypes"})
     public static void validateWithException(Validator validator, Object object, Class<?>... groups) throws ConstraintViolationException {
